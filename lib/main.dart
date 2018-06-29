@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
     final endScale = startScale / 2;
 
     var top = defaultTopMargin;
-    var scale;
+    var scale = 1.0;
 
     if (scrollController.hasClients) {
       final offset = scrollController.offset;
